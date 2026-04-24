@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.1.1",
   "download_url": "https://github.com/rm25s2yh75-hue/headroom/releases/latest/download/Headroom.dmg",
-  "release_notes": "New app icon"
+  "release_notes": "Automatic update checking on launch"
 }
