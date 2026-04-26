@@ -22,11 +22,11 @@ rm -rf "$ICONSET"
 
 # --- Compile ---
 echo "Compiling for arm64..."
-swiftc "$SCRIPT_DIR/ram_monitor.swift" -swift-version 5 -framework Cocoa \
+swiftc "$SCRIPT_DIR/Headroom.swift" -swift-version 5 -framework Cocoa -framework UserNotifications \
     -target arm64-apple-macosx11.0 -o /tmp/${APP_NAME}_arm64
 
 echo "Compiling for x86_64..."
-swiftc "$SCRIPT_DIR/ram_monitor.swift" -swift-version 5 -framework Cocoa \
+swiftc "$SCRIPT_DIR/Headroom.swift" -swift-version 5 -framework Cocoa -framework UserNotifications \
     -target x86_64-apple-macosx11.0 -o /tmp/${APP_NAME}_x86_64
 
 echo "Creating universal binary..."
