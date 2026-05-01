@@ -1,5 +1,5 @@
 {
-  "version": "1.1.3",
+  "version": "1.2",
   "download_url": "https://github.com/rm25s2yh75-hue/headroom/releases/latest/download/Headroom.dmg",
-  "release_notes": "Graphs, live data updates, toggle switches, and more."
+  "release_notes": "Graph layout changes and other small fixes to make the app more informative."
 }
