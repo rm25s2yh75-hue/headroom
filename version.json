@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
-  "download_url": "https://github.com/rm25s2yh75-hue/headroom/releases/download/1.4/Headroom.dmg",
+  "version": "1.4.0",
+  "download_url": "https://github.com/rm25s2yh75-hue/headroom/releases/latest/download/Headroom.dmg",
   "release_notes": "Dot colour now matches System Pressure % (green <50%, amber 50-74%, red ≥75%), pressure labels show thresholds, source renamed to Headroom.swift, README added"
 }
